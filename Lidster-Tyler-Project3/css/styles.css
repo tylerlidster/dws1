@@ -1,14 +1,41 @@
 /* Tyler Lidster */
+#section {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    clear: left;
+    background-color: #e5e8ea;
+    border: 2px solid #000000;
+}
+#image {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background: linear-gradient(#e5e8ea, #fefefe);
+    border: 2px solid #000000;
+
+}
+#federal {
+	background-image: url("../images/1413529449_scales-128.png");
+	background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
 body {
+	background-image: url("../images/presence-ii.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
 	font-family: 'Roboto';
 	color: #373b47;
-	opacity: 0.95;
-	box-shadow:2px 2px #a3a8ba inset;
-	border-top: 5px solid #000000;
-    border-right: 100px solid #000000;
-    border-bottom: 5px solid #000000;
-    border-left: 100px solid #000000;
-    margin: 0px auto;
+	margin: 0 auto;
+	width: 90%;
 }
 /* Unvisited Link */
 a:link {
@@ -30,38 +57,36 @@ a:active {
 h1 {
     color: #FFFFFF;
     background-color: #373b47;
-    opacity: 0.95;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3em;
     line-height: 2;
     font-family: 'Roboto Condensed';
     text-align: center;
-    text-shadow: 1px 2px #a3a8ba;
     padding: 5px;
 }
 /* History / Sports / Government / Images Sub Headings */
 h2 {
 	color: #FFFFFF;
     background-color: #373b47;
-    opacity: 0.95;
-    font-size: 32px;
-    line-height: 1;
+    font-size: 2em;
     font-family: 'Roboto Condensed';
-    padding: 15px;
+    padding: 5px;
 }
 /* Federal and state representation Sub heading */
 h3 {
 	font-family: 'Roboto Condensed';
-    height: 100%;
-	width: 100%;
+	font-size: 1em;
     padding: 15px;
 
 }
 /* The Article Text */
 p {
-	margin: 10px auto;
-	padding: 15px;
+	
+	padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
 	color: #373b47;
 	font-size: 14px;
 }
@@ -70,7 +95,7 @@ ul {
 	list-style-type: square;
 }
 ol {
-	color: #373b47;
+	color: #373b47;	
 }
 /* Top of page links */
 ul li {
@@ -80,7 +105,7 @@ ul li {
     padding-bottom: 5px;
     padding-left: 75px;
 	border: 5px solid #373b47;
-	margin: 5px;
+	margin: 1%;
 	color: #FFFFFF;
 	background-color: #373b47; 
 }
@@ -88,4 +113,5 @@ ul li {
 /* Gives the images a border */
 img { 
    border:10px solid #373b47;
+   width: 100%;
 }
