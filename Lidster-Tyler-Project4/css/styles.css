@@ -1,0 +1,122 @@
+/* Tyler Lidster */
+/*Contains all H2 headings with the exception of the images - left side of the 2 column layout*/
+#content {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    clear: left;
+    background-color: #e5e8ea;
+    border: 2px solid #000000;
+}
+/*Contains h2 heading images and its contents - 
+right side of the 2 column layout - 
+also creates the gradient background*/
+#imagesOfLa {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background: linear-gradient(#e5e8ea, #fefefe);
+    border: 2px solid #000000;
+
+}
+/*Creates the non repeating background image/icon*/
+#federal {
+	background-image: url("../images/1413529449_scales-128.png");
+	background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+/*repeating background image*/
+body {
+	background-image: url("../images/presence-ii.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+	font-family: 'Roboto';
+	color: #373b47;
+	margin: 0 auto;
+	width: 90%;
+}
+/* Unvisited Link */
+a:link {
+    color: #FFFFFF;
+}
+/* Visited Link */
+a:visited {
+    color: #3f5ec0;
+}
+/* Hover Link */
+a:hover {
+    color: #8088a1;
+}
+/* Active Link */
+a:active {
+    color: #264bbf;
+}
+/* Los Angeles Heading */
+h1 {
+    color: #FFFFFF;
+    background-color: #373b47;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 2;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    padding: 5px;
+}
+/* History / Sports / Government / Images Sub Headings */
+h2 {
+	color: #FFFFFF;
+    background-color: #373b47;
+    font-size: 2em;
+    font-family: 'Roboto Condensed';
+    padding: 5px;
+}
+/* Federal and state representation Sub heading */
+h3 {
+	font-family: 'Roboto Condensed';
+	font-size: 1em;
+    padding: 15px;
+
+}
+/* The Article Text */
+p {
+	
+	padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+	color: #373b47;
+	font-size: 14px;
+}
+/* Navigator Links */
+ul {
+	list-style-type: square;
+}
+ol {
+	color: #373b47;	
+}
+/* Top of page links */
+ul li {
+	display: inline-block;
+	width: 8%;
+	padding-right: 175px;
+    border: 1px solid #000000;
+	margin: 0 auto;
+	color: #FFFFFF;
+	background-color: #373b47; 
+	border-radius: 5px;
+}
+
+/* Gives the images a border */
+img { 
+   border:10px solid #373b47;
+   width: 100%;
+}
