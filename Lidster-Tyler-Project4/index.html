@@ -27,6 +27,7 @@
 <!--HISTORY-->
 <!--DIV created to hold all h2 headings with the exception of the h2 heading images-->
 		<div id="content">
+		<article>
 		<h2 id="history">History</h2>
 			<p>The Los Angeles coastal area was first settled by the Tongva (or Gabrieleños) and Chumash Native American tribes thousands of years ago. A Gabrielino settlement in the area was called iyáangẚ (written Yang-na by the Spanish), meaning "poison oak place".[26][27]</p>
 			<p>Juan Rodríguez Cabrillo, a Portuguese-born explorer, claimed the area of southern California for the Spanish Empire in 1542.[28] Gaspar de Portolà and Franciscan missionary Juan Crespí, reached the present site of Los Angeles on August 2, 1769.[29]</p>
@@ -41,6 +42,52 @@
 			<p>Racial tensions erupted on April 29, 1992, with the acquittal by a Simi Valley jury of the police officers captured on videotape beating Rodney King, culminating in large-scale riots.[50] In 1994, the 6.7 Northridge earthquake shook the city, causing $12.5 billion in damage and 72 deaths.[51] The century ended with the Rampart scandal, one of the most extensive documented cases of police misconduct in American history.[52]</p>
 <!--SPORTS-->
 		<h2 id="sports">Sports</h2>
+		<table>
+			<tr>
+				<th scope="col">Sport</th>
+				<th colspan="5" scope="col">Professional Teams</th>
+			</tr>
+			<tr class="baseball "scope="row">
+				<td>Baseball</td>
+				<td>Anaheim Angels</td>
+				<td>Los Angeles Dodgers</td>
+				<td>Oakland Athletics</td>
+				<td>San Diego Padres</td>
+				<td>San Francisco Giants</td>
+			</tr>
+			<tr class="football" scope="row">
+				<td>Football</td>
+				<td>Oakland Raiders</td>
+				<td>San Diego Chargers</td>
+				<td>San Francisco 49ers</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="basketball" scope="row">
+				<td>Basketball</td>
+				<td>Golden State Warriors</td>
+				<td>Los Angeles Clippers</td>
+				<td>Los Angeles Lakers</td>
+				<td>Sacramento Kings</td>
+				<td></td>
+			</tr>
+			<tr class="hockey" scope="row">
+				<td>Hockey</td>
+				<td>Anaheim Ducks</td>
+				<td>Los Angeles Kings</td>
+				<td>San Jose Sharks</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="soccer" scope="row">
+				<td>Soccer</td>
+				<td>Chivas USA</td>
+				<td>Los Angeles Galaxy</td>
+				<td>San Jose Earthquakes</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
 			<p>The city of Los Angeles is the home of <em>several</em> major league professional sports teams. These Los Angeles teams include the Los Angeles Dodgers of Major League Baseball, the Los Angeles Clippers and Los Angeles Lakers of the National Basketball Association, and the Los Angeles Kings of the National Hockey League.</p>
 			<p>Los Angeles <abbr title="National Basketball Association">NBA</abbr> Teams</p>
 		<ol>
@@ -61,6 +108,7 @@
 			<p>In the California State Assembly, Los Angeles is split between fourteen districts:[124] the 38th, 39th, 43rd, 45th, 46th, 50th, 51st, 53rd, 54th, 59th, 62nd, 64th, 66th, and 70th districts.</p>
 			<p>In the California State Senate, Los Angeles is split between eight districts:[125] the 18th, 24th, 25th, 26th, 27th, 30th, 33rd, and 35th districts.</p>
 			<p>In the United States House of Representatives, Los Angeles is split between ten congressional districts.[126]</p>
+		</article>
 		</div>
 <!--IMAGES-->
 <!--ASIDE created to hold the h2 heading images and the image/links that follow / right side of the two column layout-->
@@ -84,10 +132,66 @@
   			<figcaption>Venice Beach</figcaption>
 		</section>
 	</aside>
+	<form>
+		<h2>Contact Us</h2>
+		<div id="name">
+		<p><label for="name" class="title">Name:</label>
+		<input type="text" id="name" name="name" maxlength="30" placeholder="Tyler Lidster" required="required" /></p>
+		</div>
+		<div id="email">
+		<p><label for="email" class="title">E-mail:</label> <input type="email" id="email" name="email" placeholder="email@example.com" 		required="required" /></p>
+		</div>
+		<div id="rate">
+		<p><span class="title">Rate This Page:</span>
+		<label>
+		<input type="radio" id="rate" name="rate" value="Poor" checked="checked"> Poor
+		</label>
+		<label>
+		<input type="radio" id="rate" name="rate" value="Good" checked="checked"> Good
+		</label>
+		<label>
+		<input type="radio" id="rate" name="rate" value="Amazing" checked="checked"> Amazing
+		</label>
+		</p>
+		</div>
+		<div id="referal">
+		<p><span class="title">Where Did You Hear About Us?</span>
+		<label>
+		<input type="checkbox" id="referal "name="referal" value="tv" /> TV
+		</label>
+		<label>
+		<input type="checkbox" id="referal name="referal" value="radio" /> Radio
+		</label>
+		<label>
+		<input type="checkbox" id="referal name="referal" value="website" /> Website
+		</label>
+		<label>
+		<input type="checkbox" id="referal name="referal" value="Other" /> Other</p>
+		</label>
+		</div>
+		<div id="browser">
+		<p><label for="browser" class="title">Browser Preference:</label>
+		<select name="browser" id="browser">
+		<option value="google" selected="selected">Google Chrome</option>
+		<option value="firefox" selected="selected">Mozilla Firefox</option>
+		<option value="apple" selected="selected">Apple Safari</option>
+		<option value="none" selected="selected">None</option>
+		</select></p>
+		</div>
+		<div id="comments">
+		<p><label>Additional Comments?
+		<br><textarea name="comments" id="comments">
+		</textarea>
+		</label>
+		</p>
+		</div>
+		<div id="submit">
+		<p>
+		<input type="submit" value="Send" /></p>
+		</div>
+	</form>
 	<footer>
-	<p>
-	<a href="http://en.wikipedia.org/wiki/Los_Angeles">Reference: http://en.wikipedia.org/wiki/Los_Angeles</a>
-	</p>
+	<p><a href="http://en.wikipedia.org/wiki/Los_Angeles">Reference: http://en.wikipedia.org/wiki/Los_Angeles</a></p>
 	</footer>
 	</div>
 	</body>

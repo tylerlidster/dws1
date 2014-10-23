@@ -5,8 +5,8 @@
 	width: 45%;
 	margin: 1%;
 	padding-top: 5px;
+	padding-left: 15px;
     padding-bottom: 5px;
-    padding-left: 15px;
     clear: left;
     background-color: #e5e8ea;
     border: 2px solid #000000;
@@ -119,4 +119,150 @@ ul li {
 img { 
    border:10px solid #373b47;
    width: 100%;
+}
+/******Table*****/
+table {
+	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 1%;
+	border-spacing: 0px;
+	padding: 5px;
+	width: 4%;
+	margin-left: 5%;
+	font-size: 1em;
+}
+/***Table Headings***/
+th {
+	background-color: #373b47;
+	padding: 10px;
+	text-transform: uppercase;
+}
+tr {
+	padding: 15px;
+}
+td {
+	padding: 5px 5px 5px 5px;
+}
+/*baseball*/
+.baseball {
+	text-align: right;
+}
+.baseball:hover {
+	background-color: #C2D1E0;
+}
+/*football*/
+.football {
+	background-color: gray;
+	text-align: right;
+}
+.football:hover {
+	background-color: #C2D1E0;
+}
+/*basketball*/
+.basketball {
+	text-align: right;
+}
+.basketball:hover {
+	background-color: #C2D1E0;
+}
+/*hockey*/
+.hockey {
+	background-color: gray;
+	text-align: right;
+}
+.hockey:hover {
+	background-color: #C2D1E0;
+}
+/*soccer*/
+.soccer {
+	text-align: right;
+}
+.soccer:hover {
+	background-color: #C2D1E0;
+}
+/*****Form*****/
+form {
+	display: inline-block;
+	background-color: #e5e8ea;
+   	padding-top: 5px;
+   	padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #e5e8ea;
+    border: 2px solid #000000;
+}
+.title {
+float: left;
+width: 45%;
+clear: left;
+font-size: 1em;
+text-align: left;
+}
+/***Name***/
+input[type="text"] {
+	background-color: #FFFFFF;
+	width: 45%;
+	margin-right: 10px;
+}
+/***Name Hover***/
+input[type="text"]:hover {
+	background-color: #879bce;
+}
+/***Name Focus***/
+input[type="text"]:focus {
+	background-color: #879bce;
+}
+/***Email***/
+input[type="email"] {
+	background-color: #FFFFFF;
+	width: 45%;
+	margin-right: 10px;
+}
+/***Email Hover***/
+input[type="email"]:hover {
+	background-color: #879bce;
+}
+/***Email Focus***/
+input[type="email"]:focus {
+	background-color: #879bce;
+}
+/***Rate This Page***/
+input[type="radio"] {
+	margin-right: 10px;
+}
+/*Where Did You Hear About Us***/
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+/***Additional Comments***/
+textarea {
+	background-color: #FFFFFF;
+	width: 85%;
+	margin-right: 10px;
+}
+/***Additional Comments Hover***/
+textarea:hover {
+	background-color: #879bce;
+}
+/***Additional Comments Focus***/
+textarea:focus {
+	background-color: #879bce;
+}
+/***Submit Button***/
+input[type="submit"] {
+	padding: 5px;
+	text-align: center;
+	margin: 0px auto;
+	background: linear-gradient(#395cc0, #113088);
+	color: #FFFFFF;
+	border-radius: 2px;
+	font-size: 1em;
+	width: 25%;
+}
+/***Submit Button Hover***/
+input[type="submit"]:hover {
+	background: linear-gradient(#113088, #395cc0);
+}
+/***Submit Button Focus***/
+input[type="submit"]:focus {
+	background: linear-gradient(#113088, #395cc0);
 }
