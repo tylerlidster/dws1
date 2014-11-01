@@ -3,9 +3,9 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color: #262626; /*changes color of the whole text*/
 	margin-top: 0;
-	
+	background-color: #161616;
 }
 #wrapper{
 	width:960px;
@@ -15,7 +15,7 @@ body{
 	-webkit-box-shadow: 0px 0px 5px #ececec;
 	-moz-box-shadow:    0px 0px 5px #ececec;
 	box-shadow:         0px 0px 5px #ececec;
-	background-color: #989CA8;
+	background-color: #B7B7B7;
 	border-radius: 2px;
 
 }
@@ -30,12 +30,15 @@ h1{
 }
 h2{
 	margin-top: 20px;
+	font-weight: bold;
+	font-size: 200%;
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
 	background: #f7f7f9;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
+	border: 3px solid #161616;
 }
 tr{
 	display: table-row;
