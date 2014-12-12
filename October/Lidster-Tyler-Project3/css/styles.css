@@ -2,7 +2,7 @@
 /*Contains all H2 headings with the exception of the images - left side of the 2 column layout*/
 #section {
 	float: left;
-	width: 55%;
+	width: 45%;
 	margin: 1%;
 	padding-top: 5px;
     padding-bottom: 5px;
@@ -16,7 +16,7 @@ right side of the 2 column layout -
 also creates the gradient background*/
 #image {
 	float: left;
-	width: 35%;
+	width: 45%;
 	margin: 1%;
 	padding-top: 5px;
     padding-bottom: 5px;
@@ -41,7 +41,7 @@ body {
 	font-family: 'Roboto';
 	color: #373b47;
 	margin: 0 auto;
-	width: 90%;
+	
 }
 /* Unvisited Link */
 a:link {
