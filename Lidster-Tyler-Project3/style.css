@@ -1,0 +1,107 @@
+/*Tyler Lidster*/
+#content {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	clear: left;
+	padding-top: 5px;
+	padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+#gallery {
+	float: left;
+	width: 45%;
+	margin: 1%;
+	border: 8px solid hsla(214, 24%, 35%, 0.95);
+	border-radius: 10px;
+	overflow: auto;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background: linear-gradient(#e5e8ea, #fefefe);
+}
+#images {
+	margin-left: 7%;
+}
+#footer {
+	clear: both;
+}
+body {
+	font-family: 'Roboto';
+	font-style: normal;
+	background-color: hsla(211, 10%, 71%, 0.8); 
+	width: 90%;
+	padding: 15px;
+	margin: 0px auto;
+	border: 10px solid hsla(216, 0%, 19%, 0.9);
+    border-radius: 25px;
+}
+/*Main Heading*/
+h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: 200%;
+	text-align: center;
+	text-shadow: 1px 2px #a3a8ba;
+	background-color: hsla(214, 24%, 35%, 0.95);
+	color: hsla(216, 0%, 85%, 1);
+}
+/*Sub Heading*/
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: hsla(214, 24%, 35%, 0.95);
+	color: #FFF;
+	padding-left: 5px;
+}
+/*Sub Sub Heading*/
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+/*Paragraph Content*/
+p {
+	font-size: 1em;
+}
+/*Top of Page Navigation Links*/
+a:link {
+    color: hsla(214, 24%, 35%, 0.95);
+    text-decoration: none;
+}
+/*Visited Link*/
+a:visited {
+    color: #3f5ec0;
+}
+/*Hover Link*/
+a:hover {
+    color: #8088a1;
+}
+/*Active Link*/
+a:active {
+    color: #264bbf;
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 4%;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left: auto;
+}
+ul li {
+	display: inline;
+	margin-right: 5%;
+}
+/*End Top of Page Navigation Links*/
+ol {
+	list-style-type: upper-alpha;
+}
+/*Images*/
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 10px solid hsla(214, 24%, 35%, 0.95);
+}
