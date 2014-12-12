@@ -21,6 +21,7 @@ also creates the gradient background*/
 	padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
+    clear: left;
     background: linear-gradient(#e5e8ea, #fefefe);
     border: 2px solid #000000;
 
@@ -41,7 +42,6 @@ body {
 	font-family: 'Roboto';
 	color: #373b47;
 	margin: 0 auto;
-	
 }
 /* Unvisited Link */
 a:link {

@@ -1,24 +1,18 @@
 /*Tyler Lidster*/
-
-body {
-	background-image: url("../images/presence-ii.png");
-	background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center;
-	font-family: 'Roboto';
-	font-style: normal;
-	background-color: hsla(211, 10%, 71%, 0.8); 
-	width: 90%;
-	padding: 15px;
-	margin: 0px auto;
+/*ALL CONTAINING WRAPPER*/
+#wrapper {
+	background-color: hsla(211, 10%, 71%, 0.8);
 	border: 10px solid hsla(216, 0%, 19%, 0.9);
     border-radius: 25px;
 }
+/*NON REPEATING BACKGROUND IMAGE/ICON*/
+#franchise {
+	background-image: url("../images/1418435178_basketball.png");
+	background-repeat: no-repeat;
+    background-position: right;
+}
+/*DIV CONTANING ALL CONTENT - LEFT SIDE OF MULTI COLUMN LAYOUT*/
 #content {
-background-image: url("../images/presence-ii.png");
-	background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center;
 	float: left;
 	width: 45%;
 	margin: 1%;
@@ -26,8 +20,9 @@ background-image: url("../images/presence-ii.png");
 	padding-top: 5px;
 	padding-right: 15px;
     padding-bottom: 5px;
-    padding-left: 15px;
+    padding-left: 15px;    
 }
+/*GALLERY - RIGHT SIDE OF TWO COLUMN LAYOUT - SIDEBAR*/
 #gallery {
 	float: left;
 	width: 45%;
@@ -42,9 +37,21 @@ background-image: url("../images/presence-ii.png");
 #images {
 	margin-left: 7%;
 }
+/*END OF GALLERY*/
+/*FOOTER*/
 #footer {
 	clear: both;
 	padding: 4%;
+}
+body {
+	background-image: url("../images/presence-ii.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	width: 90%;
+	margin: 0px auto;
 }
 /*Main Heading*/
 h1 {
